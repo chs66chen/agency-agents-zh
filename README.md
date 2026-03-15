@@ -12,20 +12,15 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 ### 📊 项目规模
 
-| 🤖 AI 智能体 | 🌏 英文版翻译 | 🇨🇳 中国平台原创 | 🧠 支持工具 |
+| 🤖 AI 智能体 | 🌏 英文版翻译 | 🇨🇳 中国市场原创 | 🧠 支持工具 |
 |:---:|:---:|:---:|:---:|
-| **146** | **127** | **19** | **10 种** |
+| **146** | **124** | **22** | **10 种** |
 
 ---
 
 ## 这是什么？
 
-**AI 智能体专家团队** 是一套精心打造的 AI 智能体人格集合。每个智能体都是：
-
-- **专业化**：在各自领域拥有深度专长（不是通用模板）
-- **有个性**：独特的沟通风格和思维方式
-- **重交付**：真实的代码、流程和可衡量的产出
-- **可落地**：经过实战验证的工作流和成功指标
+**146 个即插即用的 AI 专家人格**——每个都有独特的专业技能、沟通风格和可落地的工作流，不是通用模板。
 
 ---
 
@@ -72,7 +67,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 ## 智能体阵容
 
-### 工程部
+### 🛠️ 工程部
 
 构建未来，一个 commit 一个脚印。
 
@@ -101,7 +96,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [SRE](engineering/engineering-sre.md) | SLO、可观测性、混沌工程 | 站点可靠性工程 |
 | [飞书集成开发工程师](engineering/engineering-feishu-integration-developer.md) ⭐ | 飞书机器人、审批流、多维表格 | 飞书生态集成开发 |
 
-### 设计部
+### 🎨 设计部
 
 让产品好看、好用、有惊喜。
 
@@ -116,7 +111,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [趣味注入师](design/design-whimsy-injector.md) | 微交互、彩蛋、趣味元素 | 产品细节体验提升 |
 | [包容性视觉专家](design/design-inclusive-visuals-specialist.md) | 多元化视觉、无障碍设计 | 包容性设计、全球化视觉 |
 
-### 营销部
+### 📢 营销部
 
 一个真实互动一个粉丝地增长。
 
@@ -166,7 +161,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [LinkedIn 内容创作专家](marketing/marketing-linkedin-content-creator.md) | LinkedIn 职场内容、B2B 获客 | LinkedIn 品牌建设 |
 | [图书联合作者](marketing/marketing-book-co-author.md) | 思想领袖力图书、代笔协作 | 图书策划与撰写 |
 
-### 付费媒体部
+### 💰 付费媒体部
 
 精准投放，每一分预算都花在刀刃上。
 
@@ -180,7 +175,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [搜索词分析师](paid-media/paid-media-search-query-analyst.md) | 搜索词挖掘、否词优化 | 搜索广告精细化运营 |
 | [追踪与归因专家](paid-media/paid-media-tracking-specialist.md) | 转化追踪、归因模型 | 广告效果衡量、数据打通 |
 
-### 销售部
+### 💼 销售部
 
 从线索到成交，让每一单都有章法。
 
@@ -195,7 +190,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [Pipeline 分析师](sales/sales-pipeline-analyst.md) | 销售漏斗、预测分析 | 销售数据分析、预测 |
 | [投标策略师](sales/sales-proposal-strategist.md) | 投标方案、提案撰写 | 招投标、方案竞标 |
 
-### 产品部
+### 📦 产品部
 
 在正确的时间做正确的事。
 
@@ -206,7 +201,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [反馈分析师](product/product-feedback-synthesizer.md) | 用户反馈分析、洞察提取 | 反馈分析、产品优先级 |
 | [行为助推引擎](product/product-behavioral-nudge-engine.md) | 行为心理学、用户引导 | 用户行为设计、转化提升 |
 
-### 项目管理部
+### 📋 项目管理部
 
 让项目按时按质交付。
 
@@ -219,7 +214,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [工作室运营](project-management/project-management-studio-operations.md) | 工作室日常运营管理 | 团队运营效率 |
 | [Jira 工作流管家](project-management/project-management-jira-workflow-steward.md) | Jira 配置、工作流优化 | Jira 项目管理 |
 
-### 测试部
+### 🧪 测试部
 
 打破一切，让用户不必承受。
 
@@ -234,7 +229,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [工具评估师](testing/testing-tool-evaluator.md) | 工具选型、功能对比 | 技术选型、工具采购 |
 | [工作流优化师](testing/testing-workflow-optimizer.md) | 流程分析、自动化 | 效率提升、流程改进 |
 
-### 支持部
+### 🤝 支持部
 
 运营的中流砥柱。
 
@@ -249,7 +244,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [招聘运营专家](support/support-recruitment-specialist.md) ⭐ | Boss直聘/猎聘、劳动法、校招社招 | 招聘全流程与HR合规 |
 | [供应链采购策略师](support/support-supply-chain-strategist.md) ⭐ | 1688采购、质检、供应商管理、ERP | 供应链与采购管理 |
 
-### 专项部
+### 🔬 专项部
 
 不走寻常路的专家。
 
@@ -277,7 +272,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [文档生成器](specialized/specialized-document-generator.md) | PDF/PPTX/DOCX/XLSX 生成 | 程序化文档创建 |
 | [医疗健康营销合规师](specialized/healthcare-marketing-compliance.md) ⭐ | 医疗广告法、NMPA、互联网医疗 | 医疗健康营销合规 |
 
-### 空间计算部
+### 🥽 空间计算部
 
 构建下一代空间交互体验。
 
@@ -290,7 +285,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [XR 座舱交互专家](spatial-computing/xr-cockpit-interaction-specialist.md) | 座舱 UI、多模态交互 | 汽车/航空 XR 交互 |
 | [终端集成专家](spatial-computing/terminal-integration-specialist.md) | 终端模拟、系统集成 | 空间计算终端工具 |
 
-### 游戏开发部
+### 🎮 游戏开发部
 
 从独立游戏到 3A 大作，全引擎覆盖。
 
@@ -338,7 +333,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [Roblox 体验设计师](game-development/roblox-studio/roblox-experience-designer.md) | 体验设计、游戏循环 | Roblox 游戏设计 |
 | [Roblox 系统脚本工程师](game-development/roblox-studio/roblox-systems-scripter.md) | Luau 脚本、数据存储 | Roblox 游戏开发 |
 
-### 战略部
+### 🎯 战略部
 
 从发现到运营的全流程战略指导。详见 [strategy/](strategy/) 目录。
 
@@ -542,34 +537,11 @@ cd /your/project
 
 ---
 
-## 中国市场原创智能体
+## 🇨🇳 中国市场原创智能体
 
-以下智能体不是翻译，是专门为中国平台和市场做的：
+除翻译外，本项目包含 **22 个原创智能体**，专为中国平台和业务场景打造。覆盖小红书、抖音、微信、B站、快手、飞书、百度等平台，以及跨境电商、政务ToG、医疗合规等垂直领域。
 
-| 智能体 | 平台/领域 | 特色 |
-|--------|-----------|------|
-| [小红书运营](marketing/marketing-xiaohongshu-operator.md) | 小红书 | 种草笔记、达人合作、爆款公式 |
-| [抖音策略师](marketing/marketing-douyin-strategist.md) | 抖音 | 短视频策划、算法逻辑、直播话术 |
-| [微信公众号运营](marketing/marketing-wechat-operator.md) | 微信 | 内容运营、社群裂变、私域流量 |
-| [B站内容策略师](marketing/marketing-bilibili-strategist.md) | 哔哩哔哩 | UP主运营、弹幕文化、中长视频策略 |
-| [快手策略师](marketing/marketing-kuaishou-strategist.md) | 快手 | 下沉市场、老铁文化、直播电商 |
-| [电商运营师](marketing/marketing-ecommerce-operator.md) | 淘宝/拼多多/京东 | 大促作战、直播带货、跨平台运营 |
-| [百度 SEO 专家](marketing/marketing-baidu-seo-specialist.md) | 百度 | 百度优化、百科/知道/贴吧生态 |
-| [微信小程序开发者](engineering/engineering-wechat-mini-program-developer.md) | 微信 | WXML/WXSS、微信支付、云开发 |
-| [私域流量运营师](marketing/marketing-private-domain-operator.md) | 企业微信 | 企微SCRM、社群SOP、用户生命周期管理 |
-| [直播电商主播教练](marketing/marketing-livestream-commerce-coach.md) | 抖音/快手/淘宝/视频号 | 直播话术、千川投放、选品排品 |
-| [飞书集成开发工程师](engineering/engineering-feishu-integration-developer.md) | 飞书 | 机器人、审批流、多维表格、消息卡片 |
-| [政务数字化售前顾问](specialized/government-digital-presales-consultant.md) | 政务/ToG | 方案设计、标书编写、等保/信创合规 |
-| [跨境电商运营专家](marketing/marketing-cross-border-ecommerce.md) | Amazon/Shopee/Lazada | 跨境选品、海外仓、合规税务、品牌出海 |
-| [短视频剪辑指导师](marketing/marketing-short-video-editing-coach.md) | 短视频制作 | 剪辑软件、调色、音频、动效、AI辅助剪辑 |
-| [微博运营策略师](marketing/marketing-weibo-strategist.md) | 微博 | 热搜运营、超话、舆情公关、粉丝经济 |
-| [播客内容策略师](marketing/marketing-podcast-strategist.md) | 小宇宙/喜马拉雅 | 播客策划、音频制作、分发与商业化 |
-| [招聘运营专家](support/support-recruitment-specialist.md) | HR/招聘 | Boss直聘/猎聘、劳动法合规、校招社招 |
-| [供应链采购策略师](support/support-supply-chain-strategist.md) | 供应链 | 1688采购、质检、供应商管理、ERP系统 |
-| [企业培训课程设计师](specialized/corporate-training-designer.md) | 企业培训 | ADDIE/SAM、企业学习平台、讲师培养 |
-| [医疗健康营销合规师](specialized/healthcare-marketing-compliance.md) | 医疗健康 | 医疗广告法、NMPA、互联网医疗合规 |
-| [提示词工程师](specialized/prompt-engineer.md) | 通用 | 系统提示词、思维链、评测框架 |
-| [留学规划顾问](specialized/study-abroad-advisor.md) | 教育 | 多国申请策略、选校定位、文书指导 |
+> 在上方智能体阵容中标有 ⭐ 的即为原创智能体。
 
 ---
 

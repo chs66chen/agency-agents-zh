@@ -12,20 +12,15 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 ### 📊 專案規模
 
-| 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國平臺原創 | 🧠 支援工具 |
+| 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國市場原創 | 🧠 支援工具 |
 |:---:|:---:|:---:|:---:|
-| **146** | **127** | **19** | **10 種** |
+| **146** | **124** | **22** | **10 種** |
 
 ---
 
 ## 這是什麼？
 
-**AI 智能體專家團隊** 是一套精心打造的 AI 智能體人格集合。每個智能體都是：
-
-- **專業化**：在各自領域擁有深度專長（不是通用模板）
-- **有個性**：獨特的溝通風格和思維方式
-- **重交付**：真實的程式碼、流程和可衡量的產出
-- **可落地**：經過實戰驗證的工作流和成功指標
+**146 個即插即用的 AI 專家人格**——每個都有獨特的專業技能、溝通風格和可落地的工作流，不是通用模板。
 
 ---
 
@@ -72,7 +67,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 ## 智能體陣容
 
-### 工程部
+### 🛠️ 工程部
 
 構建未來，一個 commit 一個腳印。
 
@@ -101,7 +96,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [SRE](engineering/engineering-sre.md) | SLO、可觀測性、混沌工程 | 站點可靠性工程 |
 | [飛書整合開發工程師](engineering/engineering-feishu-integration-developer.md) ⭐ | 飛書機器人、審批流、多維表格 | 飛書生態整合開發 |
 
-### 設計部
+### 🎨 設計部
 
 讓產品好看、好用、有驚喜。
 
@@ -116,7 +111,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [趣味注入師](design/design-whimsy-injector.md) | 微互動、彩蛋、趣味元素 | 產品細節體驗提升 |
 | [包容性視覺專家](design/design-inclusive-visuals-specialist.md) | 多元化視覺、無障礙設計 | 包容性設計、全球化視覺 |
 
-### 營銷部
+### 📢 營銷部
 
 一個真實互動一個粉絲地增長。
 
@@ -166,7 +161,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [LinkedIn 內容創作專家](marketing/marketing-linkedin-content-creator.md) | LinkedIn 職場內容、B2B 獲客 | LinkedIn 品牌建設 |
 | [圖書聯合作者](marketing/marketing-book-co-author.md) | 思想領袖力圖書、代筆協作 | 圖書策劃與撰寫 |
 
-### 付費媒體部
+### 💰 付費媒體部
 
 精準投放，每一分預算都花在刀刃上。
 
@@ -180,7 +175,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [搜尋詞分析師](paid-media/paid-media-search-query-analyst.md) | 搜尋詞挖掘、否詞最佳化 | 搜尋廣告精細化運營 |
 | [追蹤與歸因專家](paid-media/paid-media-tracking-specialist.md) | 轉化追蹤、歸因模型 | 廣告效果衡量、資料打通 |
 
-### 銷售部
+### 💼 銷售部
 
 從線索到成交，讓每一單都有章法。
 
@@ -195,7 +190,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [Pipeline 分析師](sales/sales-pipeline-analyst.md) | 銷售漏斗、預測分析 | 銷售資料分析、預測 |
 | [投標策略師](sales/sales-proposal-strategist.md) | 投標方案、提案撰寫 | 招投標、方案競標 |
 
-### 產品部
+### 📦 產品部
 
 在正確的時間做正確的事。
 
@@ -206,7 +201,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [反饋分析師](product/product-feedback-synthesizer.md) | 使用者反饋分析、洞察提取 | 反饋分析、產品優先順序 |
 | [行為助推引擎](product/product-behavioral-nudge-engine.md) | 行為心理學、使用者引導 | 使用者行為設計、轉化提升 |
 
-### 專案管理部
+### 📋 專案管理部
 
 讓專案按時按質交付。
 
@@ -219,7 +214,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [工作室運營](project-management/project-management-studio-operations.md) | 工作室日常運營管理 | 團隊運營效率 |
 | [Jira 工作流管家](project-management/project-management-jira-workflow-steward.md) | Jira 配置、工作流最佳化 | Jira 專案管理 |
 
-### 測試部
+### 🧪 測試部
 
 打破一切，讓使用者不必承受。
 
@@ -234,7 +229,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [工具評估師](testing/testing-tool-evaluator.md) | 工具選型、功能對比 | 技術選型、工具採購 |
 | [工作流最佳化師](testing/testing-workflow-optimizer.md) | 流程分析、自動化 | 效率提升、流程改進 |
 
-### 支援部
+### 🤝 支援部
 
 運營的中流砥柱。
 
@@ -249,7 +244,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [招聘運營專家](support/support-recruitment-specialist.md) ⭐ | Boss直聘/獵聘、勞動法、校招社招 | 招聘全流程與HR合規 |
 | [供應鏈採購策略師](support/support-supply-chain-strategist.md) ⭐ | 1688採購、質檢、供應商管理、ERP | 供應鏈與採購管理 |
 
-### 專項部
+### 🔬 專項部
 
 不走尋常路的專家。
 
@@ -277,7 +272,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [文件生成器](specialized/specialized-document-generator.md) | PDF/PPTX/DOCX/XLSX 生成 | 程式化文件建立 |
 | [醫療健康營銷合規師](specialized/healthcare-marketing-compliance.md) ⭐ | 醫療廣告法、NMPA、網際網路醫療 | 醫療健康營銷合規 |
 
-### 空間計算部
+### 🥽 空間計算部
 
 構建下一代空間互動體驗。
 
@@ -290,7 +285,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [XR 座艙互動專家](spatial-computing/xr-cockpit-interaction-specialist.md) | 座艙 UI、多模態互動 | 汽車/航空 XR 互動 |
 | [終端整合專家](spatial-computing/terminal-integration-specialist.md) | 終端模擬、系統整合 | 空間計算終端工具 |
 
-### 遊戲開發部
+### 🎮 遊戲開發部
 
 從獨立遊戲到 3A 大作，全引擎覆蓋。
 
@@ -338,7 +333,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [Roblox 體驗設計師](game-development/roblox-studio/roblox-experience-designer.md) | 體驗設計、遊戲迴圈 | Roblox 遊戲設計 |
 | [Roblox 系統指令碼工程師](game-development/roblox-studio/roblox-systems-scripter.md) | Luau 指令碼、資料儲存 | Roblox 遊戲開發 |
 
-### 戰略部
+### 🎯 戰略部
 
 從發現到運營的全流程戰略指導。詳見 [strategy/](strategy/) 目錄。
 
@@ -542,34 +537,11 @@ cd /your/project
 
 ---
 
-## 中國市場原創智能體
+## 🇨🇳 中國市場原創智能體
 
-以下智能體不是翻譯，是專門為中國平臺和市場做的：
+除翻譯外，本專案包含 **22 個原創智能體**，專為中國平臺和業務場景打造。覆蓋小紅書、抖音、微信、B站、快手、飛書、百度等平臺，以及跨境電商、政務ToG、醫療合規等垂直領域。
 
-| 智能體 | 平臺/領域 | 特色 |
-|--------|-----------|------|
-| [小紅書運營](marketing/marketing-xiaohongshu-operator.md) | 小紅書 | 種草筆記、達人合作、爆款公式 |
-| [抖音策略師](marketing/marketing-douyin-strategist.md) | 抖音 | 短影片策劃、演算法邏輯、直播話術 |
-| [微信公眾號運營](marketing/marketing-wechat-operator.md) | 微信 | 內容運營、社群裂變、私域流量 |
-| [B站內容策略師](marketing/marketing-bilibili-strategist.md) | 嗶哩嗶哩 | UP主運營、彈幕文化、中長影片策略 |
-| [快手策略師](marketing/marketing-kuaishou-strategist.md) | 快手 | 下沉市場、老鐵文化、直播電商 |
-| [電商運營師](marketing/marketing-ecommerce-operator.md) | 淘寶/拼多多/京東 | 大促作戰、直播帶貨、跨平臺運營 |
-| [百度 SEO 專家](marketing/marketing-baidu-seo-specialist.md) | 百度 | 百度最佳化、百科/知道/貼吧生態 |
-| [微信小程式開發者](engineering/engineering-wechat-mini-program-developer.md) | 微信 | WXML/WXSS、微信支付、雲開發 |
-| [私域流量運營師](marketing/marketing-private-domain-operator.md) | 企業微信 | 企微SCRM、社群SOP、使用者生命週期管理 |
-| [直播電商主播教練](marketing/marketing-livestream-commerce-coach.md) | 抖音/快手/淘寶/影片號 | 直播話術、千川投放、選品排品 |
-| [飛書整合開發工程師](engineering/engineering-feishu-integration-developer.md) | 飛書 | 機器人、審批流、多維表格、訊息卡片 |
-| [政務數字化售前顧問](specialized/government-digital-presales-consultant.md) | 政務/ToG | 方案設計、標書編寫、等保/信創合規 |
-| [跨境電商運營專家](marketing/marketing-cross-border-ecommerce.md) | Amazon/Shopee/Lazada | 跨境選品、海外倉、合規稅務、品牌出海 |
-| [短影片剪輯指導師](marketing/marketing-short-video-editing-coach.md) | 短影片製作 | 剪輯軟體、調色、音訊、動效、AI輔助剪輯 |
-| [微博運營策略師](marketing/marketing-weibo-strategist.md) | 微博 | 熱搜運營、超話、輿情公關、粉絲經濟 |
-| [播客內容策略師](marketing/marketing-podcast-strategist.md) | 小宇宙/喜馬拉雅 | 播客策劃、音訊製作、分發與商業化 |
-| [招聘運營專家](support/support-recruitment-specialist.md) | HR/招聘 | Boss直聘/獵聘、勞動法合規、校招社招 |
-| [供應鏈採購策略師](support/support-supply-chain-strategist.md) | 供應鏈 | 1688採購、質檢、供應商管理、ERP系統 |
-| [企業培訓課程設計師](specialized/corporate-training-designer.md) | 企業培訓 | ADDIE/SAM、企業學習平臺、講師培養 |
-| [醫療健康營銷合規師](specialized/healthcare-marketing-compliance.md) | 醫療健康 | 醫療廣告法、NMPA、網際網路醫療合規 |
-| [提示詞工程師](specialized/prompt-engineer.md) | 通用 | 系統提示詞、思維鏈、評測框架 |
-| [留學規劃顧問](specialized/study-abroad-advisor.md) | 教育 | 多國申請策略、選校定位、文書指導 |
+> 在上方智能體陣容中標有 ⭐ 的即為原創智能體。
 
 ---
 
