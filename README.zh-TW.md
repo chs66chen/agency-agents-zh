@@ -14,7 +14,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 | 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國市場原創 | 🧠 支援工具 |
 |:---:|:---:|:---:|:---:|
-| **186** | **142** | **44** | **12 種** |
+| **186** | **142** | **44** | **14 種** |
 
 ---
 
@@ -28,7 +28,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 ### 方式一：一鍵安裝到你的 AI 工具
 
-支援 **12 種主流 AI 程式設計工具**，一條命令搞定：
+支援 **14 種主流 AI 程式設計工具**，一條命令搞定：
 
 ```bash
 # 自動檢測已安裝的工具，一鍵安裝
@@ -38,6 +38,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 ./scripts/install.sh --tool claude-code    # Claude Code
 ./scripts/install.sh --tool copilot        # GitHub Copilot
 ./scripts/install.sh --tool cursor         # Cursor
+./scripts/install.sh --tool kiro           # Kiro (Amazon)
 ./scripts/install.sh --tool trae           # Trae
 ./scripts/install.sh --tool openclaw       # OpenClaw
 ./scripts/install.sh --tool opencode       # OpenCode
@@ -47,6 +48,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 ./scripts/install.sh --tool gemini-cli     # Gemini CLI
 ./scripts/install.sh --tool qwen           # Qwen Code
 ./scripts/install.sh --tool codex          # Codex CLI
+./scripts/install.sh --tool deerflow       # DeerFlow 2.0 (ByteDance)
 ```
 
 > Claude Code 和 GitHub Copilot 可直接安裝；其他工具需先執行 `./scripts/convert.sh` 轉換格式。
@@ -438,7 +440,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 ## 工具整合
 
-支援 **12 種主流 AI 程式設計工具**，透過 `scripts/` 目錄下的指令碼實現格式轉換和一鍵安裝。
+支援 **14 種主流 AI 程式設計工具**，透過 `scripts/` 目錄下的指令碼實現格式轉換和一鍵安裝。
 
 ### 支援的工具
 

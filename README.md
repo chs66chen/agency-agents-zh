@@ -15,7 +15,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 | 🤖 AI 智能体 | 🌏 英文版翻译 | 🇨🇳 中国市场原创 | 🧠 支持工具 |
 |:---:|:---:|:---:|:---:|
-| **186** | **142** | **44** | **12 种** |
+| **186** | **142** | **44** | **14 种** |
 
 ---
 
@@ -46,7 +46,7 @@ npx ao run workflows/story-creation.yaml --input premise='你的创意'
 
 ### 方式一：一键安装到你的 AI 工具
 
-支持 **12 种主流 AI 编程工具**，一条命令搞定：
+支持 **14 种主流 AI 编程工具**，一条命令搞定：
 
 ```bash
 # 自动检测已安装的工具，一键安装
@@ -56,6 +56,7 @@ npx ao run workflows/story-creation.yaml --input premise='你的创意'
 ./scripts/install.sh --tool claude-code    # Claude Code
 ./scripts/install.sh --tool copilot        # GitHub Copilot
 ./scripts/install.sh --tool cursor         # Cursor
+./scripts/install.sh --tool kiro           # Kiro (Amazon)
 ./scripts/install.sh --tool trae           # Trae
 ./scripts/install.sh --tool openclaw       # OpenClaw
 ./scripts/install.sh --tool opencode       # OpenCode
@@ -65,6 +66,7 @@ npx ao run workflows/story-creation.yaml --input premise='你的创意'
 ./scripts/install.sh --tool gemini-cli     # Gemini CLI
 ./scripts/install.sh --tool qwen           # Qwen Code
 ./scripts/install.sh --tool codex          # Codex CLI
+./scripts/install.sh --tool deerflow       # DeerFlow 2.0 (ByteDance)
 ```
 
 > Claude Code 和 GitHub Copilot 可直接安装；其他工具需先运行 `./scripts/convert.sh` 转换格式。
